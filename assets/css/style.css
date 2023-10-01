@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+.logoprincipal{
+    background-image: url("../img/gymlogoprincipal.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F8C509;
+    width: 400px; /* esta no se agranda más noseporque */
+    height: 600px;
+}
+
+footer{
+    z-index: initial;
+}
