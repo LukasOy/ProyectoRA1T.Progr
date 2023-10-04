@@ -1,16 +1,92 @@
+/*
+PREGUNTAR PROFESOR COMO SE HACE PARA TENER SIEMPRE COLORES EN LISTA Y SI UNO LO QUIERE CAMBIAR QUE NO SEA UNO A UNO, SI NO QUE SE CAMBIE 1 Y TODO SE ORDENE
+*/
+
+:root{
+ --color-principal: #F8C509;
+}
+
+html{
+    min-height: 100%;
+    position: relative;
+}
 body{
     background-color: black;
+    margin: 0;
+    /*margin-bottom: 40px; no hace nada */
 }
 .logoprincipal{
     background-image: url("../img/gymlogoprincipal.jpg");
-    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #F8C509;
+    color: var(--color-principal);
     width: 400px; /* esta no se agranda más noseporque */
     height: 600px;
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    text-shadow: black 1px 1px 1px;
+}
+.botoncprueba{
+    width: 120px;
+}
+.trescards{
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+.trescards > row > h1 {
+    text-align: center;
+}
+.containerrrss{
+    position: relative;
+    padding: 10px 5px 5px 5px;
+    margin: 0px 5px 0px 0px;
+}
+header{
+    position: relative;
+}
+.nav-link, .nav-item{
+    color: black !important;
+    text-shadow: none !important;
+}
+.listaheader{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: black;
+}
+.nav{
+    color: black;
+    font-size: 20px;
+    text-shadow: white 1px 1px 1px;
+    margin: 20px;
+    padding: 5px 10px 0px 0px;
+}
+.boton{
+    margin-top: 200px;
+}
+.boton > h1{
+    color: var(--color-principal);
+    font-size: 40px;
+    text-shadow: black 1px 1px 1px;
+    padding: 50px;
 }
 
 footer{
     z-index: initial;
+    background-color: var(--color-principal);
+    color: black;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0px; /* si subo el carrusell se mete abajo del footer  */
+
+}
+.footercolor{
+    background-color: var(--color-principal);
+}
+
+.enlacesfooter > ul > li{
+    list-style: none;
 }
