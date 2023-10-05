@@ -1,9 +1,10 @@
 /*
 PREGUNTAR PROFESOR COMO SE HACE PARA TENER SIEMPRE COLORES EN LISTA Y SI UNO LO QUIERE CAMBIAR QUE NO SEA UNO A UNO, SI NO QUE SE CAMBIE 1 Y TODO SE ORDENE
 */
-
+/* INDEX.HTML */
 :root{
  --color-principal: #F8C509;
+    --color-secundario: #E09A02;
 }
 
 html{
@@ -27,15 +28,34 @@ body{
     font-size: 40px;
     text-shadow: black 1px 1px 1px;
 }
+.container-fluid{
+    position: relative;
+
+}
+.horizontal-gradient {
+    background: linear-gradient(to right, #F8C509, black);
+}
 .botoncprueba{
     width: 120px;
+    background-color: var(--color-secundario) !important ;
 }
 .trescards{
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
+
+.linea2 {
+    border-left: 2px solid black;
+    float: left;
+    width: 1px;
+    height: 25px;
+    padding: 0;
+    margin: 10px 0 0 0;
+    background-color: rgba(108,109,113,255);
+}
+
 .trescards > row > h1 {
-    text-align: center;
+    text-align: center; /* este no funciona aun */
 }
 .containerrrss{
     position: relative;
@@ -45,7 +65,7 @@ body{
 header{
     position: relative;
 }
-.nav-link, .nav-item{
+.nav-link, .nav-item, .enlacesfooter{
     color: black !important;
     text-shadow: none !important;
 }
@@ -89,4 +109,25 @@ footer{
 
 .enlacesfooter > ul > li{
     list-style: none;
+}
+
+
+/* CLASESDEPRUEBA.HTML*/
+.cajatodo{
+    background-color: black;
+    border: 5px solid #FC9303;
+    width: 1000px;
+    margin: 10px 10px 0px 10px;
+    padding: 0px 20px 20px 20px;
+}
+.botonform{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+
+/* QUIENESOMOS.HTML */
+.imgprofe {
+    border-radius: 50%;
 }
