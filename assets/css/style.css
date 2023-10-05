@@ -5,15 +5,19 @@ PREGUNTAR PROFESOR COMO SE HACE PARA TENER SIEMPRE COLORES EN LISTA Y SI UNO LO 
 :root{
  --color-principal: #F8C509;
     --color-secundario: #E09A02;
+    --font-principal:'Open Sans', sans-serif;
+
 }
 
 html{
     min-height: 100%;
     position: relative;
+    font-family: var(--font-principal);
 }
 body{
     background-color: black;
     margin: 0;
+    font-family: var(--font-principal);
     /*margin-bottom: 40px; no hace nada */
 }
 .logoprincipal{
@@ -26,7 +30,8 @@ body{
     text-align: center;
     padding: 50px;
     font-size: 40px;
-    text-shadow: black 1px 1px 1px;
+    text-shadow: black 0px 0px 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 .container-fluid{
     position: relative;
@@ -40,10 +45,13 @@ body{
     background-color: var(--color-secundario) !important ;
 }
 .trescards{
-    padding: 5px 5px 5px 5px;
-    margin: 5px 5px 5px 5px;
+    padding: 5px 10px 30px 10px;
+    margin: 5px 10px 30px 10px;
 }
-
+.h1index{
+    padding: 50px 5px 5px 10px;
+    margin: 50px 5px 100px 300px;
+}
 .linea2 {
     border-left: 2px solid black;
     float: left;
@@ -78,9 +86,10 @@ header{
 .nav{
     color: black;
     font-size: 20px;
-    text-shadow: white 1px 1px 1px;
+    text-shadow: white 0px 0px 0px;
     margin: 20px;
     padding: 5px 10px 0px 0px;
+    font-family: var(--font-principal);
 }
 .boton{
     margin-top: 200px;
