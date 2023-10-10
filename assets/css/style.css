@@ -1,6 +1,6 @@
-/*
-PREGUNTAR PROFESOR COMO SE HACE PARA TENER SIEMPRE COLORES EN LISTA Y SI UNO LO QUIERE CAMBIAR QUE NO SEA UNO A UNO, SI NO QUE SE CAMBIE 1 Y TODO SE ORDENE
-*/
+
+/* ESTOY ARREGLANDO LAS IMAGENES CON MARGIN Y PADDING ¿ES CORRECTO ESO? */
+
 /* INDEX.HTML */
 :root{
  --color-principal: #F8C509;
@@ -17,7 +17,7 @@ html{
 body{
     background-color: black;
     margin: 0;
-    font-family: var(--font-principal);
+    font-family: var(--font-principal) !important;
     /*margin-bottom: 40px; no hace nada */
 }
 .logoprincipal{
@@ -26,7 +26,7 @@ body{
     background-size: cover;
     color: var(--color-principal);
     width: 400px; /* esta no se agranda más noseporque */
-    height: 600px;
+    height: 800px;
     text-align: center;
     padding: 50px;
     font-size: 40px;
@@ -69,6 +69,14 @@ body{
     position: relative;
     padding: 10px 5px 5px 5px;
     margin: 0px 5px 0px 0px;
+}
+.arribaheader{
+    background-color: grey;
+}
+.arribaheaderletras{
+    color: var(--color-principal);
+    margin: 0px 0px 0px 100px;
+
 }
 header{
     position: relative;
@@ -148,7 +156,24 @@ footer{
 }
 .imgprofe {
     border-radius: 50%;
-    padding: 0px 0px 0px 20px;
-    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 0px 10px;
+    margin: 50px 0px 20px 300px;
     display: flex;
+    text-align: center;
 }
+.imgprofe2 {
+    border-radius: 50%;
+    padding: 0px 0px 0px 10px;
+    margin: 50px 0px 20px 300px;
+    display: flex;
+    text-align: center;
+}
+.container-fluid p, .container-fluid h1 {
+    margin: 20px 0px 0px 20px;
+    text-align: justify; /* Justificar el texto */
+    text-indent: 20px; /* Sangría en la primera línea */
+    line-height: 1.5; /* Altura de línea */
+}
+
+
+
