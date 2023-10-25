@@ -1,0 +1,39 @@
+@media (max-width: 540px) {
+    .logoprincipal {
+        /*
+
+
+        AQUI NO VA LO QUE UNO QUIERE CAMBIAR? SI NO QUIERO CAMBIAR ESTO, NO DEBERIA ESTAR AQUÍ?
+
+
+         background: url("../img/gymlogoprincipal.jpg") no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;*/
+        object-fit: cover;
+        object-position: bottom;
+        font-size: 100px;
+    }
+
+    .listaheader {
+        display: none;
+        background-color: black; /* probando si lo reconoce, NO LO HACE */
+    }
+
+    .trescardsquienessomos {
+        padding-right: 500px; /* esto en TEORIA hace que las 3 cards en quienessomos se vuelva horizontales ya que mucho padding las corre para abajo, pero NO FUNCIONA*/
+    }
+}
+
+@media (max-width: 720px) {
+
+}
+
+@media (max-width: 1366px) {
+
+}
+
+@media {
+
+}

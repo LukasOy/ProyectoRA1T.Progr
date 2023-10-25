@@ -1,0 +1,237 @@
+@import "responsive.css";
+/*               **********   BASICO                      *******                                   */
+:root {
+    --color-principal: #F8C509;
+    --color-secundario: #E09A02;
+    --font-principal: 'Open Sans', sans-serif;
+    --font-color: black;
+    --alto-cabezal: 11vh;
+    --alto-foter: 25vh;
+}
+
+html {
+    height: 100%;
+    position: relative;
+    font-family: var(--font-principal);
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: var(--font-principal) !important;
+    /*margin-bottom: 40px; no hace nada */
+}
+
+/*                             header                                                            */
+
+.cabezal {
+    height: var(--alto-cabezal);
+    font-size: 12px;
+}
+
+.logokilos {
+    background: url("../img/logokilos.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100px;
+    width: 150px;
+}
+
+.listaheader {
+    background-color: var(--color-principal);
+    display: flex;
+    justify-content: left;
+    padding: 25px 0px 0px 25px;
+}
+
+.lista1 {
+    list-style-type: none;
+}
+
+.lista2 {
+    text-align: center;
+    width: 15em;
+}
+
+.HeaderOpciones {
+    color: var(--font-color) !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.linea2 {
+    border-left: 2px solid black;
+    float: left;
+    width: 2px;
+    height: 40px;
+    padding: 0;
+    margin: 10px;
+    background-color: rgba(108, 109, 113, 255);
+}
+
+/*                              IMAGEN 1 DESPUES DE HEADER                                         */
+.logoprincipal {
+    /*IMAGEN PRINCIPAL DEL INDEX */
+    font-family: var(--font-principal);
+    color: var(--color-principal);
+    background: url("../img/gymlogoprincipal.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw; /* toda la pantalla */
+    height: 90vh;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: black 0px 0px 0px;
+
+}
+
+.botoncprueba {
+    width: 120px;
+    background-color: var(--color-secundario) !important;
+}
+
+.boton {
+    margin-top: 200px;
+}
+
+/*                                                               3 cards                              */
+
+.h1index {
+    padding: 50px 5px 5px 10px;
+    margin: 0px 5px 20px 0px;
+}
+
+.trescards {
+    padding: 5px 5px 60px 5px;
+}
+
+/*                                  carrusell                                                         */
+.carrusellcompleto {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.imagencarrusel {
+    height: 600px;
+    width: auto;
+}
+
+/* el carrusell está bajo el gmaps TENGO QUE VER COMO SE SOLUCIONA ESO */
+
+/*                                                             gmaps                                 */
+.gmapscontainer {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    margin-top: 40px;
+    /*
+    padding: 10px 0px 10px 0px; /* aqui hace que el borde de corra para ------------->>>>>
+    margin: 40px 0px 50px 0px; */
+}
+
+/*                                                  FOOTER                                           */
+footer {
+    position: absolute;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.footercolor {
+    background-color: var(--color-principal);
+    height: var(--alto-foter);
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.enlacesfooter {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*         ************    PAGINA QUIENES SOMOS2      *****************       */
+.todoquienesomos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imgqsomos1 {
+    height: 225px;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 50px;
+
+}
+
+.imgprofe2 {
+    height: 225px;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.h1quienessomos {
+    text-align: center;
+}
+
+.trescardsquienessomos {
+    padding: 25px 5px 60px 0px;
+    margin-top: 25px;
+    margin-right: 0px;
+}
+
+/*                         ****************     PAGINA EQUIPO        *************                                */
+.maquina {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    height: 200px;
+    width: auto;
+}
+
+.palabramaquina {
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+/* *************** PAGINA CLASES DE PRUEBA ****************** */
+.botonform {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+.botoncprueba {
+    width: 120px;
+    background-color: var(--color-secundario) !important;
+}
+
+.divbonotcdp {
+    margin: 10px 0px 10px 400px;
+}
+
+.todotodocdp {
+    margin: 50px 0px 50px 200px;
+    height: 80vh;
+}
+
+.cajatodocdp {
+    background-color: black;
+    border: 5px solid #FC9303;
+    width: 1000px;
+    margin: 10px 10px 0px 10px;
+    padding: 0px 20px 20px 20px;
+}
