@@ -5,7 +5,7 @@
     --color-secundario: #E09A02;
     --font-principal: 'Open Sans', sans-serif;
     --font-color: black;
-    --alto-cabezal: 11vh;
+    --alto-cabezal: 10vh;
     --alto-foter: 25vh;
 }
 
@@ -45,7 +45,9 @@ body {
     justify-content: left;
     padding: 25px 0px 0px 25px;
 }
-
+.nav-boton{
+    display: inline-block;
+}
 .lista1 {
     list-style-type: none;
 }
@@ -235,3 +237,41 @@ footer {
     margin: 10px 10px 0px 10px;
     padding: 0px 20px 20px 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imgprueba{
+    background-color: black;
+
+}
+.palabraprueba{
+    background-color: red;
+}
+
+
+

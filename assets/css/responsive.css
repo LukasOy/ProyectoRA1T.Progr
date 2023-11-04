@@ -37,3 +37,15 @@
 @media {
 
 }
+@media (max-width: 600px){
+           .nav .nav-boton {
+    display: inline-block;
+}
+        .nav #nav-check:not(checkd) ~ .nav-links{
+    height:0px;
+}
+ .nav #nav-check:checked ~ .nav-links     {
+height: 250px;
+overflow-y: hidden;
+    }
+}
